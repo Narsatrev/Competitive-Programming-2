@@ -1,0 +1,12 @@
+import java.io.*;
+import java.util.*;
+import java.math.*;
+
+public class Main {
+	public static void main(String[]args){
+		Scanner i= new Scanner(new BufferedInputStream(System.in));
+		BigInteger u= new BigInteger("0");
+		u=BigInteger.valueOf((long)Math.pow(10000,1000));
+		System.out.println(u);		
+	}
+}
